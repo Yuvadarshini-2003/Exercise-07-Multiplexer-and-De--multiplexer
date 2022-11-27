@@ -60,11 +60,12 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 6. Generate RTL realization and timing diagrams.
 ## 4X1 MULTIPLEXER:
 ### PROGRAM:
-
-Program for 4X1 Multiplexer and verify its truth table in quartus using Verilog programming.  
-Developed by: Yuvadarshini S 
-RegisterNumber:  212221230126 
 ```
+Program for 4X1 Multiplexer and verify its truth table in quartus using Verilog programming.  
+
+Developed by: Yuvadarshini S 
+Register Number:  212221230126 
+
 module mux(I0,I1,I2,I3,S0,S1,Y);
 input I0,I1,I2,I3,S0,S1;
 output Y;
@@ -90,11 +91,12 @@ endmodule
 ![output](./muxtruth.png)
 ## 1X4 DEMULTIPLEXER:
 ### PROGRAM:
-
-Program for 1x4 Demultiplexer  and verify its truth table in quartus using Verilog programming.  
-Developed by:BHUVANESHWAR V   
-RegisterNumber: 212221240009  
 ```
+Program for 1x4 Demultiplexer  and verify its truth table in quartus using Verilog programming.  
+
+Developed by:Yuvadarshini S
+Register Number: 212221230126
+
 module demux(I,S0,S1,Y0,Y1,Y2,Y3);
 input I,S0,S1;
 output Y0,Y1,Y2,Y3;
